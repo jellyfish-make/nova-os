@@ -1,0 +1,15 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 34,
+  "modules-left": ["custom/menu", "wlr/taskbar"],
+  "modules-right": ["cpu", "memory", "network", "pulseaudio", "tray", "clock"],
+  "custom/menu": { "format": "Menu", "on-click": "fuzzel", "tooltip": false },
+  "wlr/taskbar": { "format": "{title}", "on-click": "activate", "on-click-middle": "close", "max-length": 24 },
+  "cpu": { "format": "CPU {usage}%", "interval": 2 },
+  "memory": { "format": "RAM {used:0.1f} GB", "interval": 2 },
+  "network": { "format-wifi": "{essid}", "format-ethernet": "Ethernet", "format-disconnected": "Offline" },
+  "pulseaudio": { "format": "Vol {volume}%", "on-click": "pavucontrol" },
+  "clock": { "format": "{:%H:%M  %d/%m/%Y}" },
+  "tray": { "spacing": 8 }
+}

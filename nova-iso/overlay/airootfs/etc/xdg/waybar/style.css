@@ -1,0 +1,8 @@
+* { font-family: "DejaVu Sans"; font-size: 12px; border: none; border-radius: 0; min-height: 0; }
+window#waybar { background: #1a1d23; color: #e5e7eb; border-top: 1px solid #2a2f3a; }
+#custom-menu { background: #3b82f6; color: #fff; padding: 0 14px; font-weight: bold; }
+#custom-menu:hover { background: #2563eb; }
+#taskbar button { padding: 0 10px; color: #8b93a1; border-bottom: 2px solid transparent; }
+#taskbar button.active { color: #e5e7eb; background: #232830; border-bottom: 2px solid #3b82f6; }
+#taskbar button:hover { background: #2a2f3a; }
+#cpu, #memory, #network, #pulseaudio, #tray, #clock { padding: 0 10px; color: #c7ccd4; }
